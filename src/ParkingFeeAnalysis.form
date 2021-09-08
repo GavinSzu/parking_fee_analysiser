@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ParkingFeeAnalysis">
+  <grid id="27dc6" binding="parkingFeeAnalysis" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="60" width="556" height="360"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f3e2d" class="javax.swing.JTextArea" binding="textArea">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <lineWrap value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="28870" class="javax.swing.JButton" binding="button">
+        <constraints border-constraint="South"/>
+        <properties>
+          <horizontalTextPosition value="11"/>
+          <text value="一键分析"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
